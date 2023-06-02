@@ -42,12 +42,6 @@
             this.aralikText = new System.Windows.Forms.TextBox();
             this.haziranText = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -252,6 +246,12 @@
             this.label18 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -366,7 +366,7 @@
             this.ocakText.Location = new System.Drawing.Point(0, 0);
             this.ocakText.Multiline = true;
             this.ocakText.Name = "ocakText";
-            this.ocakText.Size = new System.Drawing.Size(308, 38);
+            this.ocakText.Size = new System.Drawing.Size(308, 39);
             this.ocakText.TabIndex = 43;
             this.ocakText.Text = "OCAK - 2023";
             this.ocakText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -384,7 +384,7 @@
             this.temmuzText.Location = new System.Drawing.Point(0, 0);
             this.temmuzText.Multiline = true;
             this.temmuzText.Name = "temmuzText";
-            this.temmuzText.Size = new System.Drawing.Size(308, 38);
+            this.temmuzText.Size = new System.Drawing.Size(308, 39);
             this.temmuzText.TabIndex = 43;
             this.temmuzText.Text = "TEMMUZ - 2023";
             this.temmuzText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -402,7 +402,7 @@
             this.agustosText.Location = new System.Drawing.Point(0, 0);
             this.agustosText.Multiline = true;
             this.agustosText.Name = "agustosText";
-            this.agustosText.Size = new System.Drawing.Size(308, 38);
+            this.agustosText.Size = new System.Drawing.Size(308, 39);
             this.agustosText.TabIndex = 43;
             this.agustosText.Text = "AĞUSTOS - 2023";
             this.agustosText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -420,7 +420,7 @@
             this.subatText.Location = new System.Drawing.Point(0, 0);
             this.subatText.Multiline = true;
             this.subatText.Name = "subatText";
-            this.subatText.Size = new System.Drawing.Size(308, 38);
+            this.subatText.Size = new System.Drawing.Size(308, 39);
             this.subatText.TabIndex = 43;
             this.subatText.Text = "ŞUBAT - 2023";
             this.subatText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -438,7 +438,7 @@
             this.eylulText.Location = new System.Drawing.Point(0, 0);
             this.eylulText.Multiline = true;
             this.eylulText.Name = "eylulText";
-            this.eylulText.Size = new System.Drawing.Size(308, 38);
+            this.eylulText.Size = new System.Drawing.Size(308, 39);
             this.eylulText.TabIndex = 43;
             this.eylulText.Text = "EYLÜL - 2023";
             this.eylulText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -456,7 +456,7 @@
             this.martText.Location = new System.Drawing.Point(0, 0);
             this.martText.Multiline = true;
             this.martText.Name = "martText";
-            this.martText.Size = new System.Drawing.Size(308, 38);
+            this.martText.Size = new System.Drawing.Size(308, 39);
             this.martText.TabIndex = 43;
             this.martText.Text = "MART - 2023";
             this.martText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -474,7 +474,7 @@
             this.ekimText.Location = new System.Drawing.Point(0, 0);
             this.ekimText.Multiline = true;
             this.ekimText.Name = "ekimText";
-            this.ekimText.Size = new System.Drawing.Size(308, 38);
+            this.ekimText.Size = new System.Drawing.Size(308, 39);
             this.ekimText.TabIndex = 43;
             this.ekimText.Text = "EKİM - 2023";
             this.ekimText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -492,7 +492,7 @@
             this.nisanText.Location = new System.Drawing.Point(0, 0);
             this.nisanText.Multiline = true;
             this.nisanText.Name = "nisanText";
-            this.nisanText.Size = new System.Drawing.Size(308, 38);
+            this.nisanText.Size = new System.Drawing.Size(308, 39);
             this.nisanText.TabIndex = 43;
             this.nisanText.Text = "NİSAN - 2023";
             this.nisanText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -510,7 +510,7 @@
             this.kasimText.Location = new System.Drawing.Point(0, 0);
             this.kasimText.Multiline = true;
             this.kasimText.Name = "kasimText";
-            this.kasimText.Size = new System.Drawing.Size(308, 38);
+            this.kasimText.Size = new System.Drawing.Size(308, 39);
             this.kasimText.TabIndex = 43;
             this.kasimText.Text = "KASIM - 2023";
             this.kasimText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -528,7 +528,7 @@
             this.mayisText.Location = new System.Drawing.Point(0, 0);
             this.mayisText.Multiline = true;
             this.mayisText.Name = "mayisText";
-            this.mayisText.Size = new System.Drawing.Size(308, 38);
+            this.mayisText.Size = new System.Drawing.Size(308, 39);
             this.mayisText.TabIndex = 43;
             this.mayisText.Text = "MAYIS - 2023";
             this.mayisText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -546,7 +546,7 @@
             this.aralikText.Location = new System.Drawing.Point(0, 0);
             this.aralikText.Multiline = true;
             this.aralikText.Name = "aralikText";
-            this.aralikText.Size = new System.Drawing.Size(308, 38);
+            this.aralikText.Size = new System.Drawing.Size(308, 39);
             this.aralikText.TabIndex = 43;
             this.aralikText.Text = "ARALIK - 2023";
             this.aralikText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -564,7 +564,7 @@
             this.haziranText.Location = new System.Drawing.Point(0, 0);
             this.haziranText.Multiline = true;
             this.haziranText.Name = "haziranText";
-            this.haziranText.Size = new System.Drawing.Size(308, 38);
+            this.haziranText.Size = new System.Drawing.Size(308, 39);
             this.haziranText.TabIndex = 43;
             this.haziranText.Text = "HAZİRAN - 2023";
             this.haziranText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -585,72 +585,6 @@
             this.groupBox1.Size = new System.Drawing.Size(1904, 73);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button6.Location = new System.Drawing.Point(482, 19);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(88, 42);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Paketler";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button3.Location = new System.Drawing.Point(198, 19);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 42);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Kasa";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button5.Location = new System.Drawing.Point(387, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 42);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Yazdır";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button1.Location = new System.Drawing.Point(9, 19);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Arama";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button4.Location = new System.Drawing.Point(293, 20);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 42);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Taksit";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button2.Location = new System.Drawing.Point(104, 19);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 42);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Rapor";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // toolStripSplitButton1
             // 
@@ -731,7 +665,7 @@
             // btnnextyear
             // 
             this.btnnextyear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnnextyear.Location = new System.Drawing.Point(1788, 104);
+            this.btnnextyear.Location = new System.Drawing.Point(1736, 104);
             this.btnnextyear.Name = "btnnextyear";
             this.btnnextyear.Size = new System.Drawing.Size(104, 32);
             this.btnnextyear.TabIndex = 1;
@@ -744,6 +678,7 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.AutoSize = true;
             this.groupBox2.Controls.Add(this.temmuzPanel);
             this.groupBox2.Controls.Add(this.eylulPanel);
             this.groupBox2.Controls.Add(this.agustosPanel);
@@ -770,34 +705,38 @@
             // 
             // temmuzPanel
             // 
-            this.temmuzPanel.Location = new System.Drawing.Point(12, 505);
+            this.temmuzPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.temmuzPanel.Location = new System.Drawing.Point(12, 496);
             this.temmuzPanel.Margin = new System.Windows.Forms.Padding(0);
             this.temmuzPanel.Name = "temmuzPanel";
-            this.temmuzPanel.Size = new System.Drawing.Size(308, 345);
+            this.temmuzPanel.Size = new System.Drawing.Size(308, 337);
             this.temmuzPanel.TabIndex = 52;
             // 
             // eylulPanel
             // 
-            this.eylulPanel.Location = new System.Drawing.Point(642, 505);
+            this.eylulPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.eylulPanel.Location = new System.Drawing.Point(642, 496);
             this.eylulPanel.Margin = new System.Windows.Forms.Padding(0);
             this.eylulPanel.Name = "eylulPanel";
-            this.eylulPanel.Size = new System.Drawing.Size(308, 345);
+            this.eylulPanel.Size = new System.Drawing.Size(308, 337);
             this.eylulPanel.TabIndex = 52;
             // 
             // agustosPanel
             // 
-            this.agustosPanel.Location = new System.Drawing.Point(327, 505);
+            this.agustosPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.agustosPanel.Location = new System.Drawing.Point(327, 496);
             this.agustosPanel.Margin = new System.Windows.Forms.Padding(0);
             this.agustosPanel.Name = "agustosPanel";
-            this.agustosPanel.Size = new System.Drawing.Size(308, 345);
+            this.agustosPanel.Size = new System.Drawing.Size(308, 337);
             this.agustosPanel.TabIndex = 52;
             // 
             // mayisPanel
             // 
+            this.mayisPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.mayisPanel.Location = new System.Drawing.Point(1272, 81);
             this.mayisPanel.Margin = new System.Windows.Forms.Padding(0);
             this.mayisPanel.Name = "mayisPanel";
-            this.mayisPanel.Size = new System.Drawing.Size(308, 345);
+            this.mayisPanel.Size = new System.Drawing.Size(308, 337);
             this.mayisPanel.TabIndex = 52;
             // 
             // groupBoxOcak
@@ -815,16 +754,17 @@
             this.groupBoxOcak.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxOcak.Name = "groupBoxOcak";
             this.groupBoxOcak.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxOcak.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxOcak.Size = new System.Drawing.Size(308, 406);
             this.groupBoxOcak.TabIndex = 0;
             this.groupBoxOcak.TabStop = false;
             // 
             // ocakPanel
             // 
+            this.ocakPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ocakPanel.Location = new System.Drawing.Point(0, 69);
             this.ocakPanel.Margin = new System.Windows.Forms.Padding(0);
             this.ocakPanel.Name = "ocakPanel";
-            this.ocakPanel.Size = new System.Drawing.Size(308, 345);
+            this.ocakPanel.Size = new System.Drawing.Size(308, 337);
             this.ocakPanel.TabIndex = 50;
             // 
             // flowLayoutPanel7
@@ -978,20 +918,21 @@
             this.groupBoxAralik.Controls.Add(this.flowLayoutPanel538);
             this.groupBoxAralik.Controls.Add(this.aralikText);
             this.groupBoxAralik.Controls.Add(this.flowLayoutPanel539);
-            this.groupBoxAralik.Location = new System.Drawing.Point(1587, 436);
+            this.groupBoxAralik.Location = new System.Drawing.Point(1587, 427);
             this.groupBoxAralik.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxAralik.Name = "groupBoxAralik";
             this.groupBoxAralik.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxAralik.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxAralik.Size = new System.Drawing.Size(308, 406);
             this.groupBoxAralik.TabIndex = 11;
             this.groupBoxAralik.TabStop = false;
             // 
             // aralikPanel
             // 
+            this.aralikPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.aralikPanel.Location = new System.Drawing.Point(0, 69);
             this.aralikPanel.Margin = new System.Windows.Forms.Padding(0);
             this.aralikPanel.Name = "aralikPanel";
-            this.aralikPanel.Size = new System.Drawing.Size(308, 345);
+            this.aralikPanel.Size = new System.Drawing.Size(308, 337);
             this.aralikPanel.TabIndex = 52;
             // 
             // flowLayoutPanel533
@@ -1149,16 +1090,17 @@
             this.groupBoxHaziran.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxHaziran.Name = "groupBoxHaziran";
             this.groupBoxHaziran.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxHaziran.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxHaziran.Size = new System.Drawing.Size(308, 406);
             this.groupBoxHaziran.TabIndex = 10;
             this.groupBoxHaziran.TabStop = false;
             // 
             // haziranPanel
             // 
+            this.haziranPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.haziranPanel.Location = new System.Drawing.Point(0, 69);
             this.haziranPanel.Margin = new System.Windows.Forms.Padding(0);
             this.haziranPanel.Name = "haziranPanel";
-            this.haziranPanel.Size = new System.Drawing.Size(308, 345);
+            this.haziranPanel.Size = new System.Drawing.Size(308, 337);
             this.haziranPanel.TabIndex = 52;
             // 
             // flowLayoutPanel582
@@ -1312,20 +1254,21 @@
             this.groupBoxKasim.Controls.Add(this.flowLayoutPanel440);
             this.groupBoxKasim.Controls.Add(this.kasimText);
             this.groupBoxKasim.Controls.Add(this.flowLayoutPanel441);
-            this.groupBoxKasim.Location = new System.Drawing.Point(1272, 436);
+            this.groupBoxKasim.Location = new System.Drawing.Point(1272, 427);
             this.groupBoxKasim.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxKasim.Name = "groupBoxKasim";
             this.groupBoxKasim.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxKasim.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxKasim.Size = new System.Drawing.Size(308, 406);
             this.groupBoxKasim.TabIndex = 9;
             this.groupBoxKasim.TabStop = false;
             // 
             // kasimPanel
             // 
+            this.kasimPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.kasimPanel.Location = new System.Drawing.Point(0, 69);
             this.kasimPanel.Margin = new System.Windows.Forms.Padding(0);
             this.kasimPanel.Name = "kasimPanel";
-            this.kasimPanel.Size = new System.Drawing.Size(308, 345);
+            this.kasimPanel.Size = new System.Drawing.Size(308, 337);
             this.kasimPanel.TabIndex = 52;
             // 
             // flowLayoutPanel435
@@ -1482,7 +1425,7 @@
             this.groupBoxMayis.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxMayis.Name = "groupBoxMayis";
             this.groupBoxMayis.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxMayis.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxMayis.Size = new System.Drawing.Size(308, 406);
             this.groupBoxMayis.TabIndex = 8;
             this.groupBoxMayis.TabStop = false;
             // 
@@ -1637,20 +1580,21 @@
             this.groupBoxEkim.Controls.Add(this.flowLayoutPanel342);
             this.groupBoxEkim.Controls.Add(this.ekimText);
             this.groupBoxEkim.Controls.Add(this.flowLayoutPanel343);
-            this.groupBoxEkim.Location = new System.Drawing.Point(957, 436);
+            this.groupBoxEkim.Location = new System.Drawing.Point(957, 427);
             this.groupBoxEkim.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxEkim.Name = "groupBoxEkim";
             this.groupBoxEkim.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxEkim.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxEkim.Size = new System.Drawing.Size(308, 406);
             this.groupBoxEkim.TabIndex = 7;
             this.groupBoxEkim.TabStop = false;
             // 
             // ekimPanel
             // 
+            this.ekimPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ekimPanel.Location = new System.Drawing.Point(0, 69);
             this.ekimPanel.Margin = new System.Windows.Forms.Padding(0);
             this.ekimPanel.Name = "ekimPanel";
-            this.ekimPanel.Size = new System.Drawing.Size(308, 345);
+            this.ekimPanel.Size = new System.Drawing.Size(308, 337);
             this.ekimPanel.TabIndex = 52;
             // 
             // flowLayoutPanel337
@@ -1808,16 +1752,17 @@
             this.groupBoxNisan.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxNisan.Name = "groupBoxNisan";
             this.groupBoxNisan.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxNisan.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxNisan.Size = new System.Drawing.Size(308, 406);
             this.groupBoxNisan.TabIndex = 6;
             this.groupBoxNisan.TabStop = false;
             // 
             // nisanPanel
             // 
+            this.nisanPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.nisanPanel.Location = new System.Drawing.Point(0, 69);
             this.nisanPanel.Margin = new System.Windows.Forms.Padding(0);
             this.nisanPanel.Name = "nisanPanel";
-            this.nisanPanel.Size = new System.Drawing.Size(308, 345);
+            this.nisanPanel.Size = new System.Drawing.Size(308, 337);
             this.nisanPanel.TabIndex = 52;
             // 
             // flowLayoutPanel386
@@ -1970,11 +1915,11 @@
             this.groupBoxEylul.Controls.Add(this.flowLayoutPanel244);
             this.groupBoxEylul.Controls.Add(this.eylulText);
             this.groupBoxEylul.Controls.Add(this.flowLayoutPanel245);
-            this.groupBoxEylul.Location = new System.Drawing.Point(642, 436);
+            this.groupBoxEylul.Location = new System.Drawing.Point(642, 427);
             this.groupBoxEylul.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxEylul.Name = "groupBoxEylul";
             this.groupBoxEylul.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxEylul.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxEylul.Size = new System.Drawing.Size(308, 406);
             this.groupBoxEylul.TabIndex = 5;
             this.groupBoxEylul.TabStop = false;
             // 
@@ -2133,16 +2078,17 @@
             this.groupBoxMart.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxMart.Name = "groupBoxMart";
             this.groupBoxMart.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxMart.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxMart.Size = new System.Drawing.Size(308, 406);
             this.groupBoxMart.TabIndex = 4;
             this.groupBoxMart.TabStop = false;
             // 
             // martPanel
             // 
+            this.martPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.martPanel.Location = new System.Drawing.Point(0, 69);
             this.martPanel.Margin = new System.Windows.Forms.Padding(0);
             this.martPanel.Name = "martPanel";
-            this.martPanel.Size = new System.Drawing.Size(308, 345);
+            this.martPanel.Size = new System.Drawing.Size(308, 337);
             this.martPanel.TabIndex = 52;
             // 
             // flowLayoutPanel288
@@ -2295,11 +2241,11 @@
             this.groupBoxAgustos.Controls.Add(this.flowLayoutPanel146);
             this.groupBoxAgustos.Controls.Add(this.agustosText);
             this.groupBoxAgustos.Controls.Add(this.flowLayoutPanel147);
-            this.groupBoxAgustos.Location = new System.Drawing.Point(327, 436);
+            this.groupBoxAgustos.Location = new System.Drawing.Point(327, 427);
             this.groupBoxAgustos.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxAgustos.Name = "groupBoxAgustos";
             this.groupBoxAgustos.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxAgustos.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxAgustos.Size = new System.Drawing.Size(308, 406);
             this.groupBoxAgustos.TabIndex = 3;
             this.groupBoxAgustos.TabStop = false;
             // 
@@ -2458,16 +2404,17 @@
             this.groupBoxSubat.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxSubat.Name = "groupBoxSubat";
             this.groupBoxSubat.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxSubat.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxSubat.Size = new System.Drawing.Size(308, 406);
             this.groupBoxSubat.TabIndex = 2;
             this.groupBoxSubat.TabStop = false;
             // 
             // subatPanel
             // 
+            this.subatPanel.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.subatPanel.Location = new System.Drawing.Point(0, 69);
             this.subatPanel.Margin = new System.Windows.Forms.Padding(0);
             this.subatPanel.Name = "subatPanel";
-            this.subatPanel.Size = new System.Drawing.Size(308, 345);
+            this.subatPanel.Size = new System.Drawing.Size(308, 337);
             this.subatPanel.TabIndex = 51;
             // 
             // flowLayoutPanel190
@@ -2620,11 +2567,11 @@
             this.groupBoxTemmuz.Controls.Add(this.flowLayoutPanel97);
             this.groupBoxTemmuz.Controls.Add(this.temmuzText);
             this.groupBoxTemmuz.Controls.Add(this.flowLayoutPanel98);
-            this.groupBoxTemmuz.Location = new System.Drawing.Point(12, 436);
+            this.groupBoxTemmuz.Location = new System.Drawing.Point(12, 427);
             this.groupBoxTemmuz.Margin = new System.Windows.Forms.Padding(0);
             this.groupBoxTemmuz.Name = "groupBoxTemmuz";
             this.groupBoxTemmuz.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBoxTemmuz.Size = new System.Drawing.Size(308, 414);
+            this.groupBoxTemmuz.Size = new System.Drawing.Size(308, 406);
             this.groupBoxTemmuz.TabIndex = 1;
             this.groupBoxTemmuz.TabStop = false;
             // 
@@ -2770,17 +2717,93 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1666, 111);
+            this.comboBox1.Location = new System.Drawing.Point(1653, 111);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 21);
+            this.comboBox1.Size = new System.Drawing.Size(77, 21);
             this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
+            // 
+            // button6
+            // 
+            this.button6.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button6.Location = new System.Drawing.Point(482, 19);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(88, 42);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "Paketler";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button3
+            // 
+            this.button3.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button3.Location = new System.Drawing.Point(198, 19);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(88, 42);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Kasa";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button5
+            // 
+            this.button5.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button5.Location = new System.Drawing.Point(387, 19);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 42);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Yazdır";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button1.Location = new System.Drawing.Point(9, 19);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 42);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Arama";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button4.Location = new System.Drawing.Point(293, 20);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(88, 42);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Taksit";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button2
+            // 
+            this.button2.Image = global::odevdeneme.Properties.Resources.mf_logo;
+            this.button2.Location = new System.Drawing.Point(104, 19);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 42);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Rapor";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // AnaEkran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoScrollMargin = new System.Drawing.Size(3, 3);
+            this.AutoScrollMinSize = new System.Drawing.Size(3, 3);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox2);

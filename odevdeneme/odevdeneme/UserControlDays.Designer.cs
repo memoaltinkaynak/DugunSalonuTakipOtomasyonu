@@ -40,6 +40,7 @@
             this.label1.Size = new System.Drawing.Size(27, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "00";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // UserControlDays
             // 
@@ -51,6 +52,7 @@
             this.Name = "UserControlDays";
             this.Size = new System.Drawing.Size(38, 52);
             this.Load += new System.EventHandler(this.UserControlDays_Load);
+            this.Click += new System.EventHandler(this.UserControlDays_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 

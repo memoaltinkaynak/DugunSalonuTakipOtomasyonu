@@ -12,6 +12,8 @@ namespace odevdeneme
 {
     public partial class UserControlDays : UserControl
     {
+        public static string static_day;
+
         public UserControlDays()
         {
             InitializeComponent();
@@ -25,6 +27,18 @@ namespace odevdeneme
         {
             label1.Text = numday;
 
+        }
+
+        private void UserControlDays_Click(object sender, EventArgs e)
+        {            
+            ReservationForm reservationForm = new ReservationForm();
+            reservationForm.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            ReservationForm reservationForm = new ReservationForm();
+            reservationForm.Show();
         }
     }
 }

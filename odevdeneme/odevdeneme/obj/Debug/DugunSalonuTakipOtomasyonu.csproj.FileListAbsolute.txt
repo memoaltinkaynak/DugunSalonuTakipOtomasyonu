@@ -13,3 +13,4 @@ C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Debug\odevdeneme.exe
 C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Debug\odevdeneme.pdb
 C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Debug\odevdeneme.UserControlBlank.resources
 C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Debug\odevdeneme.UserControlDays.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Debug\odevdeneme.ReservationForm.resources

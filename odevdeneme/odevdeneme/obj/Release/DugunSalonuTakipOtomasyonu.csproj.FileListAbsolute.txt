@@ -1,0 +1,16 @@
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\bin\Release\odevdeneme.exe.config
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\bin\Release\odevdeneme.exe
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\bin\Release\odevdeneme.pdb
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\DugunSalonuTakipOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\DugunSalonuTakipOtomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.AcilisEkrani.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.AnaEkran.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.GirisEkrani.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.Properties.Resources.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.ReservationForm.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.UserControlBlank.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.UserControlDays.resources
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\DugunSalonuTakipOtomasyonu.csproj.GenerateResource.cache
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\DugunSalonuTakipOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.exe
+C:\Users\memo\OneDrive\Masaüstü\odevdeneme\odevdeneme\obj\Release\odevdeneme.pdb

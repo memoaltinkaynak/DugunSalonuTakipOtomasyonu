@@ -63,6 +63,16 @@ namespace odevdeneme.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back_in_time {
+            get {
+                object obj = ResourceManager.GetObject("back-in-time", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mf_logo {
             get {
                 object obj = ResourceManager.GetObject("mf logo", resourceCulture);

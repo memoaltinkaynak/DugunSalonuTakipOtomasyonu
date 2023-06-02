@@ -57,6 +57,8 @@ namespace odevdeneme
             int endYear = currentYear + 50; // Bitiş yılı
 
             comboBox1.Items.Clear();
+
+
           
             // Yılları ekleyin
             for (int year = startYear; year <= endYear; year++)
@@ -177,6 +179,30 @@ namespace odevdeneme
             clear();
             ayDoldur();
         }
-   
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+        }
     }
 }

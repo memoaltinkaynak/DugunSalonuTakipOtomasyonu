@@ -203,6 +203,8 @@ namespace odevdeneme
         private void button6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
+
+
         }
     }
 }

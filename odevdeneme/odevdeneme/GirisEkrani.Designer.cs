@@ -29,30 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GirisEkrani));
-            this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
-            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.BtnGiris = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.yetkiliGirisBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtKullaniciAdi
+            // txtUser
             // 
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(73, 177);
-            this.txtKullaniciAdi.Name = "txtKullaniciAdi";
-            this.txtKullaniciAdi.Size = new System.Drawing.Size(208, 20);
-            this.txtKullaniciAdi.TabIndex = 0;
-            this.txtKullaniciAdi.Tag = "";
+            this.txtUser.Location = new System.Drawing.Point(73, 182);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(208, 20);
+            this.txtUser.TabIndex = 0;
+            this.txtUser.Tag = "";
             // 
-            // txtSifre
+            // txtPassword
             // 
-            this.txtSifre.Location = new System.Drawing.Point(73, 243);
-            this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(208, 20);
-            this.txtSifre.TabIndex = 1;
-            this.txtSifre.UseSystemPasswordChar = true;
+            this.txtPassword.Location = new System.Drawing.Point(73, 243);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(208, 20);
+            this.txtPassword.TabIndex = 1;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // BtnGiris
             // 
@@ -63,22 +64,25 @@
             this.BtnGiris.Text = "GİRİŞ YAP";
             this.BtnGiris.UseVisualStyleBackColor = true;
             this.BtnGiris.Click += new System.EventHandler(this.BtnGiris_Click);
+            this.BtnGiris.Enter += new System.EventHandler(this.BtnGiris_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 149);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(69, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.Size = new System.Drawing.Size(88, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "Kullancı Adı";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 216);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(69, 221);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Şifre";
             // 
@@ -91,25 +95,35 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // yetkiliGirisBtn
+            // 
+            this.yetkiliGirisBtn.Location = new System.Drawing.Point(285, 373);
+            this.yetkiliGirisBtn.Name = "yetkiliGirisBtn";
+            this.yetkiliGirisBtn.Size = new System.Drawing.Size(75, 23);
+            this.yetkiliGirisBtn.TabIndex = 6;
+            this.yetkiliGirisBtn.Text = "Yetkili Giriş";
+            this.yetkiliGirisBtn.UseVisualStyleBackColor = true;
+            this.yetkiliGirisBtn.Click += new System.EventHandler(this.yetkiliGirisBtn_Click);
             // 
             // GirisEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(372, 408);
+            this.Controls.Add(this.yetkiliGirisBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnGiris);
-            this.Controls.Add(this.txtSifre);
-            this.Controls.Add(this.txtKullaniciAdi);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GirisEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giriş Ekranı";
-            this.Load += new System.EventHandler(this.GirisEkrani_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -118,11 +132,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtKullaniciAdi;
-        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button BtnGiris;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button yetkiliGirisBtn;
     }
 }

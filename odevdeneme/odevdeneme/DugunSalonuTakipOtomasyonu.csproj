@@ -58,6 +58,11 @@
     <Compile Include="AnaEkran.Designer.cs">
       <DependentUpon>AnaEkran.cs</DependentUpon>
     </Compile>
+    <Compile Include="duguntakipDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>duguntakipDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ReservationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +88,18 @@
     </Compile>
     <Compile Include="UserControlDays.Designer.cs">
       <DependentUpon>UserControlDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YetkiliEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YetkiliEkran.Designer.cs">
+      <DependentUpon>YetkiliEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YetkiliGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YetkiliGiris.Designer.cs">
+      <DependentUpon>YetkiliGiris.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AcilisEkrani.resx">
       <DependentUpon>AcilisEkrani.cs</DependentUpon>
@@ -112,6 +129,23 @@
     <EmbeddedResource Include="UserControlDays.resx">
       <DependentUpon>UserControlDays.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="YetkiliEkran.resx">
+      <DependentUpon>YetkiliEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YetkiliGiris.resx">
+      <DependentUpon>YetkiliGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="duguntakipDataSet.xsc">
+      <DependentUpon>duguntakipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="duguntakipDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>duguntakipDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="duguntakipDataSet.xss">
+      <DependentUpon>duguntakipDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

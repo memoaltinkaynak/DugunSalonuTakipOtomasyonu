@@ -16,9 +16,9 @@ namespace odevdeneme
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new AcilisEkrani());
-            //Application.Run(new GirisEkrani());
-            Application.Run(new AnaEkran());
+            Application.Run(new AcilisEkrani());
+            Application.Run(new GirisEkrani());
+            
         }
     }
 }

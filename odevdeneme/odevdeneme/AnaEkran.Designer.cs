@@ -42,6 +42,12 @@
             this.aralikText = new System.Windows.Forms.TextBox();
             this.haziranText = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -246,12 +252,33 @@
             this.label18 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.rezervasyonAraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programdanÇkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rezervasyonRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sözleşmeRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kasaRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.taksitRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iptalRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.firmaAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salonAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sözleşmeAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menüAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proPaketAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kullanıcıHesaplarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yedekAlGeriYükleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yardımVeDestekMerkeziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uzaktanYardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.haftanınFırsatıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.duyurularVeHaberlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.öneriVeyaHataBildirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arkadaşınaTavsiyeEtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lisansPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reklamPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sMSPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eMarketToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programHakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -571,6 +598,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.PowderBlue;
             this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button5);
@@ -582,13 +610,87 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(1904, 73);
+            this.groupBox1.Size = new System.Drawing.Size(1907, 73);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button6.Location = new System.Drawing.Point(482, 19);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(88, 42);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "Paketler";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button3.Location = new System.Drawing.Point(198, 19);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(88, 42);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Kasa";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.Location = new System.Drawing.Point(387, 19);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 42);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Yazdır";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(9, 19);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 42);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Arama";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.Location = new System.Drawing.Point(293, 20);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(88, 42);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Taksit";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Location = new System.Drawing.Point(104, 19);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 42);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Rapor";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // toolStripSplitButton1
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rezervasyonAraToolStripMenuItem,
+            this.programdanÇkışToolStripMenuItem});
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
             this.toolStripSplitButton1.Size = new System.Drawing.Size(55, 22);
@@ -615,7 +717,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(1904, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1907, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -630,6 +732,12 @@
             // toolStripSplitButton4
             // 
             this.toolStripSplitButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripSplitButton4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rezervasyonRaporuToolStripMenuItem,
+            this.sözleşmeRaporuToolStripMenuItem,
+            this.kasaRaporuToolStripMenuItem,
+            this.taksitRaporuToolStripMenuItem,
+            this.iptalRaporuToolStripMenuItem});
             this.toolStripSplitButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton4.Name = "toolStripSplitButton4";
             this.toolStripSplitButton4.Size = new System.Drawing.Size(67, 22);
@@ -638,6 +746,16 @@
             // toolStripSplitButton5
             // 
             this.toolStripSplitButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripSplitButton5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.programAyarlarıToolStripMenuItem,
+            this.firmaAyarlarıToolStripMenuItem,
+            this.salonAyarlarıToolStripMenuItem,
+            this.sözleşmeAyarlarıToolStripMenuItem,
+            this.menüAyarlarıToolStripMenuItem,
+            this.proPaketAyarlarıToolStripMenuItem,
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem,
+            this.kullanıcıHesaplarıToolStripMenuItem,
+            this.yedekAlGeriYükleToolStripMenuItem});
             this.toolStripSplitButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton5.Name = "toolStripSplitButton5";
             this.toolStripSplitButton5.Size = new System.Drawing.Size(60, 22);
@@ -646,6 +764,18 @@
             // toolStripSplitButton6
             // 
             this.toolStripSplitButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripSplitButton6.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.yardımVeDestekMerkeziToolStripMenuItem,
+            this.uzaktanYardımToolStripMenuItem,
+            this.haftanınFırsatıToolStripMenuItem,
+            this.duyurularVeHaberlerToolStripMenuItem,
+            this.öneriVeyaHataBildirToolStripMenuItem,
+            this.arkadaşınaTavsiyeEtToolStripMenuItem,
+            this.lisansPaketiAlToolStripMenuItem,
+            this.reklamPaketiAlToolStripMenuItem,
+            this.sMSPaketiAlToolStripMenuItem,
+            this.eMarketToolStripMenuItem,
+            this.programHakkındaToolStripMenuItem});
             this.toolStripSplitButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton6.Name = "toolStripSplitButton6";
             this.toolStripSplitButton6.Size = new System.Drawing.Size(60, 22);
@@ -654,31 +784,31 @@
             // btnprevyear
             // 
             this.btnprevyear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnprevyear.Location = new System.Drawing.Point(1543, 104);
+            this.btnprevyear.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnprevyear.Location = new System.Drawing.Point(1549, 104);
             this.btnprevyear.Name = "btnprevyear";
             this.btnprevyear.Size = new System.Drawing.Size(104, 32);
             this.btnprevyear.TabIndex = 0;
             this.btnprevyear.Text = "Önceki";
-            this.btnprevyear.UseVisualStyleBackColor = true;
+            this.btnprevyear.UseVisualStyleBackColor = false;
             this.btnprevyear.Click += new System.EventHandler(this.btnprevyear_Click);
             // 
             // btnnextyear
             // 
             this.btnnextyear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnnextyear.Location = new System.Drawing.Point(1736, 104);
+            this.btnnextyear.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnnextyear.Location = new System.Drawing.Point(1742, 104);
             this.btnnextyear.Name = "btnnextyear";
             this.btnnextyear.Size = new System.Drawing.Size(104, 32);
             this.btnnextyear.TabIndex = 1;
             this.btnnextyear.Text = "Sonraki";
-            this.btnnextyear.UseVisualStyleBackColor = true;
+            this.btnnextyear.UseVisualStyleBackColor = false;
             this.btnnextyear.Click += new System.EventHandler(this.btnnextyear_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.AutoSize = true;
+            this.groupBox2.BackColor = System.Drawing.Color.PowderBlue;
             this.groupBox2.Controls.Add(this.temmuzPanel);
             this.groupBox2.Controls.Add(this.eylulPanel);
             this.groupBox2.Controls.Add(this.agustosPanel);
@@ -2719,82 +2849,173 @@
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1653, 111);
+            this.comboBox1.Location = new System.Drawing.Point(1659, 111);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(77, 21);
             this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
-            // button6
+            // rezervasyonAraToolStripMenuItem
             // 
-            this.button6.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button6.Location = new System.Drawing.Point(482, 19);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(88, 42);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Paketler";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.rezervasyonAraToolStripMenuItem.Name = "rezervasyonAraToolStripMenuItem";
+            this.rezervasyonAraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rezervasyonAraToolStripMenuItem.Text = "Rezervasyon Ara";
             // 
-            // button3
+            // programdanÇkışToolStripMenuItem
             // 
-            this.button3.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button3.Location = new System.Drawing.Point(198, 19);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 42);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Kasa";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.programdanÇkışToolStripMenuItem.Name = "programdanÇkışToolStripMenuItem";
+            this.programdanÇkışToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.programdanÇkışToolStripMenuItem.Text = "Programdan Çıkış";
             // 
-            // button5
+            // rezervasyonRaporuToolStripMenuItem
             // 
-            this.button5.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button5.Location = new System.Drawing.Point(387, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 42);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Yazdır";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            this.rezervasyonRaporuToolStripMenuItem.Name = "rezervasyonRaporuToolStripMenuItem";
+            this.rezervasyonRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rezervasyonRaporuToolStripMenuItem.Text = "Rezervasyon Raporu";
             // 
-            // button1
+            // sözleşmeRaporuToolStripMenuItem
             // 
-            this.button1.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button1.Location = new System.Drawing.Point(9, 19);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Arama";
-            this.button1.UseVisualStyleBackColor = true;
+            this.sözleşmeRaporuToolStripMenuItem.Name = "sözleşmeRaporuToolStripMenuItem";
+            this.sözleşmeRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sözleşmeRaporuToolStripMenuItem.Text = "Sözleşme Raporu";
             // 
-            // button4
+            // kasaRaporuToolStripMenuItem
             // 
-            this.button4.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button4.Location = new System.Drawing.Point(293, 20);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 42);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Taksit";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.kasaRaporuToolStripMenuItem.Name = "kasaRaporuToolStripMenuItem";
+            this.kasaRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kasaRaporuToolStripMenuItem.Text = "Kasa Raporu";
             // 
-            // button2
+            // taksitRaporuToolStripMenuItem
             // 
-            this.button2.Image = global::odevdeneme.Properties.Resources.mf_logo;
-            this.button2.Location = new System.Drawing.Point(104, 19);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 42);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Rapor";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.taksitRaporuToolStripMenuItem.Name = "taksitRaporuToolStripMenuItem";
+            this.taksitRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.taksitRaporuToolStripMenuItem.Text = "Taksit Raporu";
+            // 
+            // iptalRaporuToolStripMenuItem
+            // 
+            this.iptalRaporuToolStripMenuItem.Name = "iptalRaporuToolStripMenuItem";
+            this.iptalRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iptalRaporuToolStripMenuItem.Text = "İptal Raporu";
+            // 
+            // programAyarlarıToolStripMenuItem
+            // 
+            this.programAyarlarıToolStripMenuItem.Name = "programAyarlarıToolStripMenuItem";
+            this.programAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.programAyarlarıToolStripMenuItem.Text = "Program Ayarları";
+            // 
+            // firmaAyarlarıToolStripMenuItem
+            // 
+            this.firmaAyarlarıToolStripMenuItem.Name = "firmaAyarlarıToolStripMenuItem";
+            this.firmaAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.firmaAyarlarıToolStripMenuItem.Text = "Firma Ayarları";
+            // 
+            // salonAyarlarıToolStripMenuItem
+            // 
+            this.salonAyarlarıToolStripMenuItem.Name = "salonAyarlarıToolStripMenuItem";
+            this.salonAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.salonAyarlarıToolStripMenuItem.Text = "Salon Ayarları";
+            // 
+            // sözleşmeAyarlarıToolStripMenuItem
+            // 
+            this.sözleşmeAyarlarıToolStripMenuItem.Name = "sözleşmeAyarlarıToolStripMenuItem";
+            this.sözleşmeAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.sözleşmeAyarlarıToolStripMenuItem.Text = "Sözleşme Ayarları";
+            // 
+            // menüAyarlarıToolStripMenuItem
+            // 
+            this.menüAyarlarıToolStripMenuItem.Name = "menüAyarlarıToolStripMenuItem";
+            this.menüAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.menüAyarlarıToolStripMenuItem.Text = "Menü Ayarları";
+            // 
+            // proPaketAyarlarıToolStripMenuItem
+            // 
+            this.proPaketAyarlarıToolStripMenuItem.Name = "proPaketAyarlarıToolStripMenuItem";
+            this.proPaketAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.proPaketAyarlarıToolStripMenuItem.Text = "Pro Paket Ayarları";
+            // 
+            // resmiVeDiniTatilGünAyarlarıToolStripMenuItem
+            // 
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Name = "resmiVeDiniTatilGünAyarlarıToolStripMenuItem";
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Text = "Resmi ve Dini Tatil Gün Ayarları";
+            // 
+            // kullanıcıHesaplarıToolStripMenuItem
+            // 
+            this.kullanıcıHesaplarıToolStripMenuItem.Name = "kullanıcıHesaplarıToolStripMenuItem";
+            this.kullanıcıHesaplarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.kullanıcıHesaplarıToolStripMenuItem.Text = "Kullanıcı Hesapları";
+            // 
+            // yedekAlGeriYükleToolStripMenuItem
+            // 
+            this.yedekAlGeriYükleToolStripMenuItem.Name = "yedekAlGeriYükleToolStripMenuItem";
+            this.yedekAlGeriYükleToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.yedekAlGeriYükleToolStripMenuItem.Text = "Yedek Al / Geri Yükle";
+            // 
+            // yardımVeDestekMerkeziToolStripMenuItem
+            // 
+            this.yardımVeDestekMerkeziToolStripMenuItem.Name = "yardımVeDestekMerkeziToolStripMenuItem";
+            this.yardımVeDestekMerkeziToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.yardımVeDestekMerkeziToolStripMenuItem.Text = "Yardım ve Destek Merkezi";
+            // 
+            // uzaktanYardımToolStripMenuItem
+            // 
+            this.uzaktanYardımToolStripMenuItem.Name = "uzaktanYardımToolStripMenuItem";
+            this.uzaktanYardımToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.uzaktanYardımToolStripMenuItem.Text = "Uzaktan Yardım";
+            // 
+            // haftanınFırsatıToolStripMenuItem
+            // 
+            this.haftanınFırsatıToolStripMenuItem.Name = "haftanınFırsatıToolStripMenuItem";
+            this.haftanınFırsatıToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.haftanınFırsatıToolStripMenuItem.Text = "Haftanın Fırsatı";
+            // 
+            // duyurularVeHaberlerToolStripMenuItem
+            // 
+            this.duyurularVeHaberlerToolStripMenuItem.Name = "duyurularVeHaberlerToolStripMenuItem";
+            this.duyurularVeHaberlerToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.duyurularVeHaberlerToolStripMenuItem.Text = "Duyurular ve Haberler";
+            // 
+            // öneriVeyaHataBildirToolStripMenuItem
+            // 
+            this.öneriVeyaHataBildirToolStripMenuItem.Name = "öneriVeyaHataBildirToolStripMenuItem";
+            this.öneriVeyaHataBildirToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.öneriVeyaHataBildirToolStripMenuItem.Text = "Öneri veya Hata Bildir";
+            // 
+            // arkadaşınaTavsiyeEtToolStripMenuItem
+            // 
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Name = "arkadaşınaTavsiyeEtToolStripMenuItem";
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Text = "Arkadaşına Tavsiye Et";
+            // 
+            // lisansPaketiAlToolStripMenuItem
+            // 
+            this.lisansPaketiAlToolStripMenuItem.Name = "lisansPaketiAlToolStripMenuItem";
+            this.lisansPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.lisansPaketiAlToolStripMenuItem.Text = "Lisans Paketi Al";
+            // 
+            // reklamPaketiAlToolStripMenuItem
+            // 
+            this.reklamPaketiAlToolStripMenuItem.Name = "reklamPaketiAlToolStripMenuItem";
+            this.reklamPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.reklamPaketiAlToolStripMenuItem.Text = "Reklam Paketi Al";
+            // 
+            // sMSPaketiAlToolStripMenuItem
+            // 
+            this.sMSPaketiAlToolStripMenuItem.Name = "sMSPaketiAlToolStripMenuItem";
+            this.sMSPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.sMSPaketiAlToolStripMenuItem.Text = "SMS Paketi Al";
+            // 
+            // eMarketToolStripMenuItem
+            // 
+            this.eMarketToolStripMenuItem.Name = "eMarketToolStripMenuItem";
+            this.eMarketToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.eMarketToolStripMenuItem.Text = "E-Market";
+            // 
+            // programHakkındaToolStripMenuItem
+            // 
+            this.programHakkındaToolStripMenuItem.Name = "programHakkındaToolStripMenuItem";
+            this.programHakkındaToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.programHakkındaToolStripMenuItem.Text = "Program Hakkında";
             // 
             // AnaEkran
             // 
@@ -2803,7 +3024,7 @@
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(3, 3);
             this.AutoScrollMinSize = new System.Drawing.Size(3, 3);
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox2);
@@ -3161,5 +3382,32 @@
         private System.Windows.Forms.FlowLayoutPanel nisanPanel;
         private System.Windows.Forms.FlowLayoutPanel martPanel;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ToolStripMenuItem rezervasyonAraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem programdanÇkışToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rezervasyonRaporuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sözleşmeRaporuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kasaRaporuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem taksitRaporuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iptalRaporuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem programAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem firmaAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salonAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sözleşmeAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menüAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem proPaketAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resmiVeDiniTatilGünAyarlarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kullanıcıHesaplarıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yedekAlGeriYükleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yardımVeDestekMerkeziToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uzaktanYardımToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem haftanınFırsatıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem duyurularVeHaberlerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem öneriVeyaHataBildirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arkadaşınaTavsiyeEtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lisansPaketiAlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reklamPaketiAlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sMSPaketiAlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eMarketToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem programHakkındaToolStripMenuItem;
     }
 }

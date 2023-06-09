@@ -35,25 +35,23 @@
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.saveBtn = new System.Windows.Forms.TabPage();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSozlesmeTarih = new System.Windows.Forms.TextBox();
+            this.txtAciklama = new System.Windows.Forms.TextBox();
+            this.txtkalanucret = new System.Windows.Forms.TextBox();
+            this.txtalinanucret = new System.Windows.Forms.TextBox();
+            this.txttoplamucret = new System.Windows.Forms.TextBox();
+            this.txtDavetli = new System.Windows.Forms.TextBox();
+            this.txtAdres = new System.Windows.Forms.TextBox();
+            this.txtYore = new System.Windows.Forms.TextBox();
+            this.txtBilgi = new System.Windows.Forms.TextBox();
+            this.txtTel2 = new System.Windows.Forms.TextBox();
+            this.txtTel1 = new System.Windows.Forms.TextBox();
+            this.txtAdsoyad = new System.Windows.Forms.TextBox();
+            this.txtKimlik = new System.Windows.Forms.TextBox();
+            this.txtProgramtarih = new System.Windows.Forms.TextBox();
+            this.txtBitis = new System.Windows.Forms.TextBox();
+            this.txtBaslama = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -67,15 +65,15 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.closeBtn = new System.Windows.Forms.Button();
-            this.btnsave = new System.Windows.Forms.Button();
-            this.deleteBtn = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.tabPage2.SuspendLayout();
             this.saveBtn.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -131,25 +129,23 @@
             // 
             // saveBtn
             // 
-            this.saveBtn.Controls.Add(this.textBox16);
-            this.saveBtn.Controls.Add(this.textBox15);
-            this.saveBtn.Controls.Add(this.textBox14);
-            this.saveBtn.Controls.Add(this.textBox13);
-            this.saveBtn.Controls.Add(this.textBox12);
-            this.saveBtn.Controls.Add(this.textBox11);
-            this.saveBtn.Controls.Add(this.textBox10);
-            this.saveBtn.Controls.Add(this.textBox9);
-            this.saveBtn.Controls.Add(this.textBox8);
-            this.saveBtn.Controls.Add(this.textBox7);
-            this.saveBtn.Controls.Add(this.textBox6);
-            this.saveBtn.Controls.Add(this.textBox5);
-            this.saveBtn.Controls.Add(this.textBox4);
-            this.saveBtn.Controls.Add(this.textBox3);
-            this.saveBtn.Controls.Add(this.textBox2);
-            this.saveBtn.Controls.Add(this.textBox1);
+            this.saveBtn.Controls.Add(this.txtSozlesmeTarih);
+            this.saveBtn.Controls.Add(this.txtAciklama);
+            this.saveBtn.Controls.Add(this.txtkalanucret);
+            this.saveBtn.Controls.Add(this.txtalinanucret);
+            this.saveBtn.Controls.Add(this.txttoplamucret);
+            this.saveBtn.Controls.Add(this.txtDavetli);
+            this.saveBtn.Controls.Add(this.txtAdres);
+            this.saveBtn.Controls.Add(this.txtYore);
+            this.saveBtn.Controls.Add(this.txtBilgi);
+            this.saveBtn.Controls.Add(this.txtTel2);
+            this.saveBtn.Controls.Add(this.txtTel1);
+            this.saveBtn.Controls.Add(this.txtAdsoyad);
+            this.saveBtn.Controls.Add(this.txtKimlik);
+            this.saveBtn.Controls.Add(this.txtProgramtarih);
+            this.saveBtn.Controls.Add(this.txtBitis);
+            this.saveBtn.Controls.Add(this.txtBaslama);
             this.saveBtn.Controls.Add(this.comboBox1);
-            this.saveBtn.Controls.Add(this.button1);
-            this.saveBtn.Controls.Add(this.dateTimePicker1);
             this.saveBtn.Controls.Add(this.label18);
             this.saveBtn.Controls.Add(this.label17);
             this.saveBtn.Controls.Add(this.label16);
@@ -163,7 +159,6 @@
             this.saveBtn.Controls.Add(this.label8);
             this.saveBtn.Controls.Add(this.label7);
             this.saveBtn.Controls.Add(this.label6);
-            this.saveBtn.Controls.Add(this.label5);
             this.saveBtn.Controls.Add(this.label4);
             this.saveBtn.Controls.Add(this.label3);
             this.saveBtn.Controls.Add(this.label2);
@@ -177,161 +172,176 @@
             this.saveBtn.Text = "Genel Bilgiler";
             this.saveBtn.UseVisualStyleBackColor = true;
             // 
-            // textBox16
+            // txtSozlesmeTarih
             // 
-            this.textBox16.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox16.Location = new System.Drawing.Point(149, 562);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(364, 113);
-            this.textBox16.TabIndex = 36;
+            this.txtSozlesmeTarih.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtSozlesmeTarih.Enabled = false;
+            this.txtSozlesmeTarih.Location = new System.Drawing.Point(149, 108);
+            this.txtSozlesmeTarih.Name = "txtSozlesmeTarih";
+            this.txtSozlesmeTarih.Size = new System.Drawing.Size(206, 23);
+            this.txtSozlesmeTarih.TabIndex = 37;
+            this.txtSozlesmeTarih.TextChanged += new System.EventHandler(this.txtSozlesmeTarih_TextChanged);
             // 
-            // textBox15
+            // txtAciklama
             // 
-            this.textBox15.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox15.Location = new System.Drawing.Point(149, 533);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 23);
-            this.textBox15.TabIndex = 35;
+            this.txtAciklama.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtAciklama.Location = new System.Drawing.Point(149, 562);
+            this.txtAciklama.Multiline = true;
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.Size = new System.Drawing.Size(364, 113);
+            this.txtAciklama.TabIndex = 36;
             // 
-            // textBox14
+            // txtkalanucret
             // 
-            this.textBox14.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox14.Location = new System.Drawing.Point(149, 504);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 23);
-            this.textBox14.TabIndex = 34;
+            this.txtkalanucret.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtkalanucret.Enabled = false;
+            this.txtkalanucret.Location = new System.Drawing.Point(149, 533);
+            this.txtkalanucret.Name = "txtkalanucret";
+            this.txtkalanucret.Size = new System.Drawing.Size(100, 23);
+            this.txtkalanucret.TabIndex = 35;
             // 
-            // textBox13
+            // txtalinanucret
             // 
-            this.textBox13.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox13.Location = new System.Drawing.Point(149, 475);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 23);
-            this.textBox13.TabIndex = 33;
+            this.txtalinanucret.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtalinanucret.Location = new System.Drawing.Point(149, 504);
+            this.txtalinanucret.Name = "txtalinanucret";
+            this.txtalinanucret.Size = new System.Drawing.Size(100, 23);
+            this.txtalinanucret.TabIndex = 34;
+            this.txtalinanucret.Text = "0";
+            this.txtalinanucret.TextChanged += new System.EventHandler(this.txtalinanucret_TextChanged);
+            this.txtalinanucret.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtalinanucret_KeyPress);
             // 
-            // textBox12
+            // txttoplamucret
             // 
-            this.textBox12.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox12.Location = new System.Drawing.Point(149, 446);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 23);
-            this.textBox12.TabIndex = 32;
+            this.txttoplamucret.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txttoplamucret.Location = new System.Drawing.Point(149, 475);
+            this.txttoplamucret.Name = "txttoplamucret";
+            this.txttoplamucret.Size = new System.Drawing.Size(100, 23);
+            this.txttoplamucret.TabIndex = 33;
+            this.txttoplamucret.Text = "0";
+            this.txttoplamucret.TextChanged += new System.EventHandler(this.txttoplamucret_TextChanged);
+            this.txttoplamucret.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttoplamucret_KeyPress);
             // 
-            // textBox11
+            // txtDavetli
             // 
-            this.textBox11.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox11.Location = new System.Drawing.Point(149, 388);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(364, 52);
-            this.textBox11.TabIndex = 31;
+            this.txtDavetli.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtDavetli.Location = new System.Drawing.Point(149, 446);
+            this.txtDavetli.MaxLength = 5;
+            this.txtDavetli.Name = "txtDavetli";
+            this.txtDavetli.Size = new System.Drawing.Size(100, 23);
+            this.txtDavetli.TabIndex = 32;
+            this.txtDavetli.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDavetli_KeyPress);
             // 
-            // textBox10
+            // txtAdres
             // 
-            this.textBox10.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox10.Location = new System.Drawing.Point(149, 359);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(364, 23);
-            this.textBox10.TabIndex = 29;
+            this.txtAdres.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtAdres.Location = new System.Drawing.Point(149, 388);
+            this.txtAdres.Multiline = true;
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(364, 52);
+            this.txtAdres.TabIndex = 31;
             // 
-            // textBox9
+            // txtYore
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox9.Location = new System.Drawing.Point(149, 330);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(364, 23);
-            this.textBox9.TabIndex = 28;
+            this.txtYore.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtYore.Location = new System.Drawing.Point(149, 359);
+            this.txtYore.Name = "txtYore";
+            this.txtYore.Size = new System.Drawing.Size(364, 23);
+            this.txtYore.TabIndex = 29;
             // 
-            // textBox8
+            // txtBilgi
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox8.Location = new System.Drawing.Point(149, 269);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(364, 23);
-            this.textBox8.TabIndex = 27;
+            this.txtBilgi.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtBilgi.Location = new System.Drawing.Point(149, 330);
+            this.txtBilgi.Name = "txtBilgi";
+            this.txtBilgi.Size = new System.Drawing.Size(364, 23);
+            this.txtBilgi.TabIndex = 28;
             // 
-            // textBox7
+            // txtTel2
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox7.Location = new System.Drawing.Point(149, 240);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(364, 23);
-            this.textBox7.TabIndex = 26;
+            this.txtTel2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtTel2.Location = new System.Drawing.Point(149, 269);
+            this.txtTel2.MaxLength = 11;
+            this.txtTel2.Name = "txtTel2";
+            this.txtTel2.Size = new System.Drawing.Size(364, 23);
+            this.txtTel2.TabIndex = 27;
+            this.txtTel2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTel2_KeyPress);
             // 
-            // textBox6
+            // txtTel1
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox6.Location = new System.Drawing.Point(149, 211);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(364, 23);
-            this.textBox6.TabIndex = 25;
+            this.txtTel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtTel1.Location = new System.Drawing.Point(149, 240);
+            this.txtTel1.MaxLength = 11;
+            this.txtTel1.Name = "txtTel1";
+            this.txtTel1.Size = new System.Drawing.Size(364, 23);
+            this.txtTel1.TabIndex = 26;
+            this.txtTel1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTel1_KeyPress);
             // 
-            // textBox5
+            // txtAdsoyad
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox5.Location = new System.Drawing.Point(149, 181);
-            this.textBox5.MaxLength = 11;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(206, 23);
-            this.textBox5.TabIndex = 23;
+            this.txtAdsoyad.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtAdsoyad.Location = new System.Drawing.Point(149, 211);
+            this.txtAdsoyad.Name = "txtAdsoyad";
+            this.txtAdsoyad.Size = new System.Drawing.Size(364, 23);
+            this.txtAdsoyad.TabIndex = 25;
             // 
-            // textBox4
+            // txtKimlik
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox4.Location = new System.Drawing.Point(149, 139);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(206, 23);
-            this.textBox4.TabIndex = 22;
+            this.txtKimlik.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtKimlik.Location = new System.Drawing.Point(149, 181);
+            this.txtKimlik.MaxLength = 11;
+            this.txtKimlik.Name = "txtKimlik";
+            this.txtKimlik.Size = new System.Drawing.Size(206, 23);
+            this.txtKimlik.TabIndex = 23;
+            this.txtKimlik.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtKimlik_KeyPress);
             // 
-            // textBox3
+            // txtProgramtarih
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox3.Location = new System.Drawing.Point(149, 110);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(206, 23);
-            this.textBox3.TabIndex = 21;
+            this.txtProgramtarih.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtProgramtarih.Enabled = false;
+            this.txtProgramtarih.Location = new System.Drawing.Point(149, 13);
+            this.txtProgramtarih.Name = "txtProgramtarih";
+            this.txtProgramtarih.Size = new System.Drawing.Size(206, 23);
+            this.txtProgramtarih.TabIndex = 21;
             // 
-            // textBox2
+            // txtBitis
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox2.Location = new System.Drawing.Point(149, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 20;
+            this.txtBitis.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtBitis.Location = new System.Drawing.Point(149, 71);
+            this.txtBitis.MaxLength = 4;
+            this.txtBitis.Name = "txtBitis";
+            this.txtBitis.Size = new System.Drawing.Size(100, 23);
+            this.txtBitis.TabIndex = 20;
+            this.txtBitis.TextChanged += new System.EventHandler(this.txtBitis_TextChanged);
+            this.txtBitis.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBitis_KeyPress);
             // 
-            // textBox1
+            // txtBaslama
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox1.Location = new System.Drawing.Point(149, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 19;
+            this.txtBaslama.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtBaslama.Location = new System.Drawing.Point(149, 42);
+            this.txtBaslama.MaxLength = 4;
+            this.txtBaslama.Name = "txtBaslama";
+            this.txtBaslama.Size = new System.Drawing.Size(100, 23);
+            this.txtBaslama.TabIndex = 19;
+            this.txtBaslama.TextChanged += new System.EventHandler(this.txtBaslama_TextChanged);
+            this.txtBaslama.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBaslama_KeyPress);
             // 
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "DÜĞÜN",
+            "KINA",
+            "NİŞAN",
+            "SÖZ",
+            "SÜNNET",
+            "TOPLANTI",
+            "TÖREN"});
             this.comboBox1.Location = new System.Drawing.Point(149, 299);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(364, 25);
             this.comboBox1.TabIndex = 30;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(255, 42);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 52);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Aralık Seçiniz";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(149, 13);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(206, 23);
-            this.dateTimePicker1.TabIndex = 18;
             // 
             // label18
             // 
@@ -450,15 +460,6 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "T.C. Kimlik No :";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 143);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Sözleşme No :";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -508,46 +509,64 @@
             this.tabControl1.Size = new System.Drawing.Size(529, 739);
             this.tabControl1.TabIndex = 0;
             // 
-            // closeBtn
+            // btnClose
             // 
-            this.closeBtn.Location = new System.Drawing.Point(440, 752);
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(77, 33);
-            this.closeBtn.TabIndex = 40;
-            this.closeBtn.Text = "Kapat";
-            this.closeBtn.UseVisualStyleBackColor = true;
+            this.btnClose.Location = new System.Drawing.Point(440, 752);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(77, 33);
+            this.btnClose.TabIndex = 40;
+            this.btnClose.Text = "Kapat";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // btnsave
+            // btnSave
             // 
-            this.btnsave.Location = new System.Drawing.Point(353, 752);
-            this.btnsave.Name = "btnsave";
-            this.btnsave.Size = new System.Drawing.Size(81, 33);
-            this.btnsave.TabIndex = 39;
-            this.btnsave.Text = "Kaydet";
-            this.btnsave.UseVisualStyleBackColor = true;
+            this.btnSave.BackColor = System.Drawing.Color.LightGreen;
+            this.btnSave.Location = new System.Drawing.Point(353, 752);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(81, 33);
+            this.btnSave.TabIndex = 39;
+            this.btnSave.Text = "Kaydet";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // deleteBtn
+            // btnDelete
             // 
-            this.deleteBtn.Location = new System.Drawing.Point(12, 752);
-            this.deleteBtn.Name = "deleteBtn";
-            this.deleteBtn.Size = new System.Drawing.Size(76, 33);
-            this.deleteBtn.TabIndex = 41;
-            this.deleteBtn.Text = "Sil";
-            this.deleteBtn.UseVisualStyleBackColor = true;
+            this.btnDelete.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnDelete.Location = new System.Drawing.Point(12, 752);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(76, 33);
+            this.btnDelete.TabIndex = 41;
+            this.btnDelete.Text = "Sil";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BackColor = System.Drawing.Color.Yellow;
+            this.btnUpdate.Location = new System.Drawing.Point(266, 754);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(81, 28);
+            this.btnUpdate.TabIndex = 42;
+            this.btnUpdate.Text = "Güncelle";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // ReservationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(529, 797);
-            this.Controls.Add(this.deleteBtn);
-            this.Controls.Add(this.closeBtn);
-            this.Controls.Add(this.btnsave);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ReservationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rezervasyon";
+            this.Load += new System.EventHandler(this.ReservationForm_Load);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.saveBtn.ResumeLayout(false);
@@ -561,25 +580,6 @@
 
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage saveBtn;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
@@ -593,7 +593,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -603,8 +602,26 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button closeBtn;
-        private System.Windows.Forms.Button btnsave;
-        private System.Windows.Forms.Button deleteBtn;
+        private System.Windows.Forms.Button btnClose;
+        public System.Windows.Forms.Button btnSave;
+        public System.Windows.Forms.Button btnDelete;
+        public System.Windows.Forms.Button btnUpdate;
+        public System.Windows.Forms.TextBox txtSozlesmeTarih;
+        public System.Windows.Forms.TextBox txtAciklama;
+        public System.Windows.Forms.TextBox txtkalanucret;
+        public System.Windows.Forms.TextBox txtalinanucret;
+        public System.Windows.Forms.TextBox txttoplamucret;
+        public System.Windows.Forms.TextBox txtDavetli;
+        public System.Windows.Forms.TextBox txtAdres;
+        public System.Windows.Forms.TextBox txtYore;
+        public System.Windows.Forms.TextBox txtBilgi;
+        public System.Windows.Forms.TextBox txtTel2;
+        public System.Windows.Forms.TextBox txtTel1;
+        public System.Windows.Forms.TextBox txtAdsoyad;
+        public System.Windows.Forms.TextBox txtKimlik;
+        public System.Windows.Forms.TextBox txtProgramtarih;
+        public System.Windows.Forms.TextBox txtBitis;
+        public System.Windows.Forms.TextBox txtBaslama;
+        public System.Windows.Forms.ComboBox comboBox1;
     }
 }

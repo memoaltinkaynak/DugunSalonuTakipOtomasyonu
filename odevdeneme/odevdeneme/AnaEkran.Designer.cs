@@ -49,15 +49,43 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.rezervasyonAraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programdanÇkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripSplitButton4 = new System.Windows.Forms.ToolStripSplitButton();
+            this.rezervasyonRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sözleşmeRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kasaRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.taksitRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iptalRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSplitButton5 = new System.Windows.Forms.ToolStripSplitButton();
+            this.programAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.firmaAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salonAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sözleşmeAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menüAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.proPaketAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kullanıcıHesaplarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yedekAlGeriYükleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSplitButton6 = new System.Windows.Forms.ToolStripSplitButton();
+            this.yardımVeDestekMerkeziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uzaktanYardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.haftanınFırsatıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.duyurularVeHaberlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.öneriVeyaHataBildirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arkadaşınaTavsiyeEtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lisansPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reklamPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sMSPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eMarketToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programHakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnprevyear = new System.Windows.Forms.Button();
             this.btnnextyear = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label85 = new System.Windows.Forms.Label();
             this.temmuzPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.eylulPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.agustosPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -252,33 +280,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.rezervasyonAraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.programdanÇkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rezervasyonRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sözleşmeRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kasaRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.taksitRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iptalRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.programAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.firmaAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salonAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sözleşmeAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menüAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.proPaketAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kullanıcıHesaplarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.yedekAlGeriYükleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.yardımVeDestekMerkeziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.uzaktanYardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.haftanınFırsatıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.duyurularVeHaberlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.öneriVeyaHataBildirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.arkadaşınaTavsiyeEtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lisansPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reklamPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sMSPaketiAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eMarketToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.programHakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -622,7 +623,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(88, 42);
             this.button6.TabIndex = 5;
-            this.button6.Text = "Paketler";
+            this.button6.Text = "Yakın Programlar";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -696,6 +697,18 @@
             this.toolStripSplitButton1.Size = new System.Drawing.Size(55, 22);
             this.toolStripSplitButton1.Text = "Dosya";
             // 
+            // rezervasyonAraToolStripMenuItem
+            // 
+            this.rezervasyonAraToolStripMenuItem.Name = "rezervasyonAraToolStripMenuItem";
+            this.rezervasyonAraToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.rezervasyonAraToolStripMenuItem.Text = "Rezervasyon Ara";
+            // 
+            // programdanÇkışToolStripMenuItem
+            // 
+            this.programdanÇkışToolStripMenuItem.Name = "programdanÇkışToolStripMenuItem";
+            this.programdanÇkışToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.programdanÇkışToolStripMenuItem.Text = "Programdan Çıkış";
+            // 
             // toolStripSplitButton2
             // 
             this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -743,6 +756,36 @@
             this.toolStripSplitButton4.Size = new System.Drawing.Size(67, 22);
             this.toolStripSplitButton4.Text = "Raporlar";
             // 
+            // rezervasyonRaporuToolStripMenuItem
+            // 
+            this.rezervasyonRaporuToolStripMenuItem.Name = "rezervasyonRaporuToolStripMenuItem";
+            this.rezervasyonRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rezervasyonRaporuToolStripMenuItem.Text = "Rezervasyon Raporu";
+            // 
+            // sözleşmeRaporuToolStripMenuItem
+            // 
+            this.sözleşmeRaporuToolStripMenuItem.Name = "sözleşmeRaporuToolStripMenuItem";
+            this.sözleşmeRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sözleşmeRaporuToolStripMenuItem.Text = "Sözleşme Raporu";
+            // 
+            // kasaRaporuToolStripMenuItem
+            // 
+            this.kasaRaporuToolStripMenuItem.Name = "kasaRaporuToolStripMenuItem";
+            this.kasaRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kasaRaporuToolStripMenuItem.Text = "Kasa Raporu";
+            // 
+            // taksitRaporuToolStripMenuItem
+            // 
+            this.taksitRaporuToolStripMenuItem.Name = "taksitRaporuToolStripMenuItem";
+            this.taksitRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.taksitRaporuToolStripMenuItem.Text = "Taksit Raporu";
+            // 
+            // iptalRaporuToolStripMenuItem
+            // 
+            this.iptalRaporuToolStripMenuItem.Name = "iptalRaporuToolStripMenuItem";
+            this.iptalRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iptalRaporuToolStripMenuItem.Text = "İptal Raporu";
+            // 
             // toolStripSplitButton5
             // 
             this.toolStripSplitButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -760,6 +803,60 @@
             this.toolStripSplitButton5.Name = "toolStripSplitButton5";
             this.toolStripSplitButton5.Size = new System.Drawing.Size(60, 22);
             this.toolStripSplitButton5.Text = "Ayarlar";
+            // 
+            // programAyarlarıToolStripMenuItem
+            // 
+            this.programAyarlarıToolStripMenuItem.Name = "programAyarlarıToolStripMenuItem";
+            this.programAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.programAyarlarıToolStripMenuItem.Text = "Program Ayarları";
+            // 
+            // firmaAyarlarıToolStripMenuItem
+            // 
+            this.firmaAyarlarıToolStripMenuItem.Name = "firmaAyarlarıToolStripMenuItem";
+            this.firmaAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.firmaAyarlarıToolStripMenuItem.Text = "Firma Ayarları";
+            // 
+            // salonAyarlarıToolStripMenuItem
+            // 
+            this.salonAyarlarıToolStripMenuItem.Name = "salonAyarlarıToolStripMenuItem";
+            this.salonAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.salonAyarlarıToolStripMenuItem.Text = "Salon Ayarları";
+            // 
+            // sözleşmeAyarlarıToolStripMenuItem
+            // 
+            this.sözleşmeAyarlarıToolStripMenuItem.Name = "sözleşmeAyarlarıToolStripMenuItem";
+            this.sözleşmeAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.sözleşmeAyarlarıToolStripMenuItem.Text = "Sözleşme Ayarları";
+            // 
+            // menüAyarlarıToolStripMenuItem
+            // 
+            this.menüAyarlarıToolStripMenuItem.Name = "menüAyarlarıToolStripMenuItem";
+            this.menüAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.menüAyarlarıToolStripMenuItem.Text = "Menü Ayarları";
+            // 
+            // proPaketAyarlarıToolStripMenuItem
+            // 
+            this.proPaketAyarlarıToolStripMenuItem.Name = "proPaketAyarlarıToolStripMenuItem";
+            this.proPaketAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.proPaketAyarlarıToolStripMenuItem.Text = "Pro Paket Ayarları";
+            // 
+            // resmiVeDiniTatilGünAyarlarıToolStripMenuItem
+            // 
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Name = "resmiVeDiniTatilGünAyarlarıToolStripMenuItem";
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Text = "Resmi ve Dini Tatil Gün Ayarları";
+            // 
+            // kullanıcıHesaplarıToolStripMenuItem
+            // 
+            this.kullanıcıHesaplarıToolStripMenuItem.Name = "kullanıcıHesaplarıToolStripMenuItem";
+            this.kullanıcıHesaplarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.kullanıcıHesaplarıToolStripMenuItem.Text = "Kullanıcı Hesapları";
+            // 
+            // yedekAlGeriYükleToolStripMenuItem
+            // 
+            this.yedekAlGeriYükleToolStripMenuItem.Name = "yedekAlGeriYükleToolStripMenuItem";
+            this.yedekAlGeriYükleToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
+            this.yedekAlGeriYükleToolStripMenuItem.Text = "Yedek Al / Geri Yükle";
             // 
             // toolStripSplitButton6
             // 
@@ -781,11 +878,77 @@
             this.toolStripSplitButton6.Size = new System.Drawing.Size(60, 22);
             this.toolStripSplitButton6.Text = "Yardım";
             // 
+            // yardımVeDestekMerkeziToolStripMenuItem
+            // 
+            this.yardımVeDestekMerkeziToolStripMenuItem.Name = "yardımVeDestekMerkeziToolStripMenuItem";
+            this.yardımVeDestekMerkeziToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.yardımVeDestekMerkeziToolStripMenuItem.Text = "Yardım ve Destek Merkezi";
+            // 
+            // uzaktanYardımToolStripMenuItem
+            // 
+            this.uzaktanYardımToolStripMenuItem.Name = "uzaktanYardımToolStripMenuItem";
+            this.uzaktanYardımToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.uzaktanYardımToolStripMenuItem.Text = "Uzaktan Yardım";
+            // 
+            // haftanınFırsatıToolStripMenuItem
+            // 
+            this.haftanınFırsatıToolStripMenuItem.Name = "haftanınFırsatıToolStripMenuItem";
+            this.haftanınFırsatıToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.haftanınFırsatıToolStripMenuItem.Text = "Haftanın Fırsatı";
+            // 
+            // duyurularVeHaberlerToolStripMenuItem
+            // 
+            this.duyurularVeHaberlerToolStripMenuItem.Name = "duyurularVeHaberlerToolStripMenuItem";
+            this.duyurularVeHaberlerToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.duyurularVeHaberlerToolStripMenuItem.Text = "Duyurular ve Haberler";
+            // 
+            // öneriVeyaHataBildirToolStripMenuItem
+            // 
+            this.öneriVeyaHataBildirToolStripMenuItem.Name = "öneriVeyaHataBildirToolStripMenuItem";
+            this.öneriVeyaHataBildirToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.öneriVeyaHataBildirToolStripMenuItem.Text = "Öneri veya Hata Bildir";
+            // 
+            // arkadaşınaTavsiyeEtToolStripMenuItem
+            // 
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Name = "arkadaşınaTavsiyeEtToolStripMenuItem";
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.arkadaşınaTavsiyeEtToolStripMenuItem.Text = "Arkadaşına Tavsiye Et";
+            // 
+            // lisansPaketiAlToolStripMenuItem
+            // 
+            this.lisansPaketiAlToolStripMenuItem.Name = "lisansPaketiAlToolStripMenuItem";
+            this.lisansPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.lisansPaketiAlToolStripMenuItem.Text = "Lisans Paketi Al";
+            // 
+            // reklamPaketiAlToolStripMenuItem
+            // 
+            this.reklamPaketiAlToolStripMenuItem.Name = "reklamPaketiAlToolStripMenuItem";
+            this.reklamPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.reklamPaketiAlToolStripMenuItem.Text = "Reklam Paketi Al";
+            // 
+            // sMSPaketiAlToolStripMenuItem
+            // 
+            this.sMSPaketiAlToolStripMenuItem.Name = "sMSPaketiAlToolStripMenuItem";
+            this.sMSPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.sMSPaketiAlToolStripMenuItem.Text = "SMS Paketi Al";
+            // 
+            // eMarketToolStripMenuItem
+            // 
+            this.eMarketToolStripMenuItem.Name = "eMarketToolStripMenuItem";
+            this.eMarketToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.eMarketToolStripMenuItem.Text = "E-Market";
+            // 
+            // programHakkındaToolStripMenuItem
+            // 
+            this.programHakkındaToolStripMenuItem.Name = "programHakkındaToolStripMenuItem";
+            this.programHakkındaToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.programHakkındaToolStripMenuItem.Text = "Program Hakkında";
+            // 
             // btnprevyear
             // 
             this.btnprevyear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnprevyear.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnprevyear.Location = new System.Drawing.Point(1549, 104);
+            this.btnprevyear.Location = new System.Drawing.Point(1558, 104);
             this.btnprevyear.Name = "btnprevyear";
             this.btnprevyear.Size = new System.Drawing.Size(104, 32);
             this.btnprevyear.TabIndex = 0;
@@ -797,7 +960,7 @@
             // 
             this.btnnextyear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnnextyear.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnnextyear.Location = new System.Drawing.Point(1742, 104);
+            this.btnnextyear.Location = new System.Drawing.Point(1751, 104);
             this.btnnextyear.Name = "btnnextyear";
             this.btnnextyear.Size = new System.Drawing.Size(104, 32);
             this.btnnextyear.TabIndex = 1;
@@ -809,6 +972,7 @@
             // 
             this.groupBox2.AutoSize = true;
             this.groupBox2.BackColor = System.Drawing.Color.PowderBlue;
+            this.groupBox2.Controls.Add(this.label85);
             this.groupBox2.Controls.Add(this.temmuzPanel);
             this.groupBox2.Controls.Add(this.eylulPanel);
             this.groupBox2.Controls.Add(this.agustosPanel);
@@ -832,6 +996,15 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = " ";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(1540, 855);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(299, 14);
+            this.label85.TabIndex = 53;
+            this.label85.Text = "Copyright © MF YAZILIM 2023. Tüm hakları saklıdır.";
             // 
             // temmuzPanel
             // 
@@ -2849,173 +3022,11 @@
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1659, 111);
+            this.comboBox1.Location = new System.Drawing.Point(1668, 111);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(77, 21);
             this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
-            // 
-            // rezervasyonAraToolStripMenuItem
-            // 
-            this.rezervasyonAraToolStripMenuItem.Name = "rezervasyonAraToolStripMenuItem";
-            this.rezervasyonAraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rezervasyonAraToolStripMenuItem.Text = "Rezervasyon Ara";
-            // 
-            // programdanÇkışToolStripMenuItem
-            // 
-            this.programdanÇkışToolStripMenuItem.Name = "programdanÇkışToolStripMenuItem";
-            this.programdanÇkışToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.programdanÇkışToolStripMenuItem.Text = "Programdan Çıkış";
-            // 
-            // rezervasyonRaporuToolStripMenuItem
-            // 
-            this.rezervasyonRaporuToolStripMenuItem.Name = "rezervasyonRaporuToolStripMenuItem";
-            this.rezervasyonRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rezervasyonRaporuToolStripMenuItem.Text = "Rezervasyon Raporu";
-            // 
-            // sözleşmeRaporuToolStripMenuItem
-            // 
-            this.sözleşmeRaporuToolStripMenuItem.Name = "sözleşmeRaporuToolStripMenuItem";
-            this.sözleşmeRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sözleşmeRaporuToolStripMenuItem.Text = "Sözleşme Raporu";
-            // 
-            // kasaRaporuToolStripMenuItem
-            // 
-            this.kasaRaporuToolStripMenuItem.Name = "kasaRaporuToolStripMenuItem";
-            this.kasaRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kasaRaporuToolStripMenuItem.Text = "Kasa Raporu";
-            // 
-            // taksitRaporuToolStripMenuItem
-            // 
-            this.taksitRaporuToolStripMenuItem.Name = "taksitRaporuToolStripMenuItem";
-            this.taksitRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.taksitRaporuToolStripMenuItem.Text = "Taksit Raporu";
-            // 
-            // iptalRaporuToolStripMenuItem
-            // 
-            this.iptalRaporuToolStripMenuItem.Name = "iptalRaporuToolStripMenuItem";
-            this.iptalRaporuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.iptalRaporuToolStripMenuItem.Text = "İptal Raporu";
-            // 
-            // programAyarlarıToolStripMenuItem
-            // 
-            this.programAyarlarıToolStripMenuItem.Name = "programAyarlarıToolStripMenuItem";
-            this.programAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.programAyarlarıToolStripMenuItem.Text = "Program Ayarları";
-            // 
-            // firmaAyarlarıToolStripMenuItem
-            // 
-            this.firmaAyarlarıToolStripMenuItem.Name = "firmaAyarlarıToolStripMenuItem";
-            this.firmaAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.firmaAyarlarıToolStripMenuItem.Text = "Firma Ayarları";
-            // 
-            // salonAyarlarıToolStripMenuItem
-            // 
-            this.salonAyarlarıToolStripMenuItem.Name = "salonAyarlarıToolStripMenuItem";
-            this.salonAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.salonAyarlarıToolStripMenuItem.Text = "Salon Ayarları";
-            // 
-            // sözleşmeAyarlarıToolStripMenuItem
-            // 
-            this.sözleşmeAyarlarıToolStripMenuItem.Name = "sözleşmeAyarlarıToolStripMenuItem";
-            this.sözleşmeAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.sözleşmeAyarlarıToolStripMenuItem.Text = "Sözleşme Ayarları";
-            // 
-            // menüAyarlarıToolStripMenuItem
-            // 
-            this.menüAyarlarıToolStripMenuItem.Name = "menüAyarlarıToolStripMenuItem";
-            this.menüAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.menüAyarlarıToolStripMenuItem.Text = "Menü Ayarları";
-            // 
-            // proPaketAyarlarıToolStripMenuItem
-            // 
-            this.proPaketAyarlarıToolStripMenuItem.Name = "proPaketAyarlarıToolStripMenuItem";
-            this.proPaketAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.proPaketAyarlarıToolStripMenuItem.Text = "Pro Paket Ayarları";
-            // 
-            // resmiVeDiniTatilGünAyarlarıToolStripMenuItem
-            // 
-            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Name = "resmiVeDiniTatilGünAyarlarıToolStripMenuItem";
-            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.resmiVeDiniTatilGünAyarlarıToolStripMenuItem.Text = "Resmi ve Dini Tatil Gün Ayarları";
-            // 
-            // kullanıcıHesaplarıToolStripMenuItem
-            // 
-            this.kullanıcıHesaplarıToolStripMenuItem.Name = "kullanıcıHesaplarıToolStripMenuItem";
-            this.kullanıcıHesaplarıToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.kullanıcıHesaplarıToolStripMenuItem.Text = "Kullanıcı Hesapları";
-            // 
-            // yedekAlGeriYükleToolStripMenuItem
-            // 
-            this.yedekAlGeriYükleToolStripMenuItem.Name = "yedekAlGeriYükleToolStripMenuItem";
-            this.yedekAlGeriYükleToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
-            this.yedekAlGeriYükleToolStripMenuItem.Text = "Yedek Al / Geri Yükle";
-            // 
-            // yardımVeDestekMerkeziToolStripMenuItem
-            // 
-            this.yardımVeDestekMerkeziToolStripMenuItem.Name = "yardımVeDestekMerkeziToolStripMenuItem";
-            this.yardımVeDestekMerkeziToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.yardımVeDestekMerkeziToolStripMenuItem.Text = "Yardım ve Destek Merkezi";
-            // 
-            // uzaktanYardımToolStripMenuItem
-            // 
-            this.uzaktanYardımToolStripMenuItem.Name = "uzaktanYardımToolStripMenuItem";
-            this.uzaktanYardımToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.uzaktanYardımToolStripMenuItem.Text = "Uzaktan Yardım";
-            // 
-            // haftanınFırsatıToolStripMenuItem
-            // 
-            this.haftanınFırsatıToolStripMenuItem.Name = "haftanınFırsatıToolStripMenuItem";
-            this.haftanınFırsatıToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.haftanınFırsatıToolStripMenuItem.Text = "Haftanın Fırsatı";
-            // 
-            // duyurularVeHaberlerToolStripMenuItem
-            // 
-            this.duyurularVeHaberlerToolStripMenuItem.Name = "duyurularVeHaberlerToolStripMenuItem";
-            this.duyurularVeHaberlerToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.duyurularVeHaberlerToolStripMenuItem.Text = "Duyurular ve Haberler";
-            // 
-            // öneriVeyaHataBildirToolStripMenuItem
-            // 
-            this.öneriVeyaHataBildirToolStripMenuItem.Name = "öneriVeyaHataBildirToolStripMenuItem";
-            this.öneriVeyaHataBildirToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.öneriVeyaHataBildirToolStripMenuItem.Text = "Öneri veya Hata Bildir";
-            // 
-            // arkadaşınaTavsiyeEtToolStripMenuItem
-            // 
-            this.arkadaşınaTavsiyeEtToolStripMenuItem.Name = "arkadaşınaTavsiyeEtToolStripMenuItem";
-            this.arkadaşınaTavsiyeEtToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.arkadaşınaTavsiyeEtToolStripMenuItem.Text = "Arkadaşına Tavsiye Et";
-            // 
-            // lisansPaketiAlToolStripMenuItem
-            // 
-            this.lisansPaketiAlToolStripMenuItem.Name = "lisansPaketiAlToolStripMenuItem";
-            this.lisansPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.lisansPaketiAlToolStripMenuItem.Text = "Lisans Paketi Al";
-            // 
-            // reklamPaketiAlToolStripMenuItem
-            // 
-            this.reklamPaketiAlToolStripMenuItem.Name = "reklamPaketiAlToolStripMenuItem";
-            this.reklamPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.reklamPaketiAlToolStripMenuItem.Text = "Reklam Paketi Al";
-            // 
-            // sMSPaketiAlToolStripMenuItem
-            // 
-            this.sMSPaketiAlToolStripMenuItem.Name = "sMSPaketiAlToolStripMenuItem";
-            this.sMSPaketiAlToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.sMSPaketiAlToolStripMenuItem.Text = "SMS Paketi Al";
-            // 
-            // eMarketToolStripMenuItem
-            // 
-            this.eMarketToolStripMenuItem.Name = "eMarketToolStripMenuItem";
-            this.eMarketToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.eMarketToolStripMenuItem.Text = "E-Market";
-            // 
-            // programHakkındaToolStripMenuItem
-            // 
-            this.programHakkındaToolStripMenuItem.Name = "programHakkındaToolStripMenuItem";
-            this.programHakkındaToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.programHakkındaToolStripMenuItem.Text = "Program Hakkında";
             // 
             // AnaEkran
             // 
@@ -3045,6 +3056,7 @@
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBoxOcak.ResumeLayout(false);
             this.groupBoxOcak.PerformLayout();
             this.flowLayoutPanel7.ResumeLayout(false);
@@ -3409,5 +3421,6 @@
         private System.Windows.Forms.ToolStripMenuItem sMSPaketiAlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eMarketToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem programHakkındaToolStripMenuItem;
+        private System.Windows.Forms.Label label85;
     }
 }

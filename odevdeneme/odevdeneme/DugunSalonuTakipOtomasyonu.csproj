@@ -77,6 +77,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationList.Designer.cs">
+      <DependentUpon>ReservationList.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlBlank.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     </Compile>
     <Compile Include="UserControlDays.Designer.cs">
       <DependentUpon>UserControlDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YakinProgramlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YakinProgramlar.Designer.cs">
+      <DependentUpon>YakinProgramlar.cs</DependentUpon>
     </Compile>
     <Compile Include="YetkiliEkran.cs">
       <SubType>Form</SubType>
@@ -123,11 +135,17 @@
     <EmbeddedResource Include="ReservationForm.resx">
       <DependentUpon>ReservationForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReservationList.resx">
+      <DependentUpon>ReservationList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlDays.resx">
       <DependentUpon>UserControlDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YakinProgramlar.resx">
+      <DependentUpon>YakinProgramlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YetkiliEkran.resx">
       <DependentUpon>YetkiliEkran.cs</DependentUpon>

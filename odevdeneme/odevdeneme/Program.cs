@@ -19,6 +19,7 @@ namespace odevdeneme
             Application.Run(new AcilisEkrani());
             Application.Run(new GirisEkrani());
             
+
         }
     }
 }

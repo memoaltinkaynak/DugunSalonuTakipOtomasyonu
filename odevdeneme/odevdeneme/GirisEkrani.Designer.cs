@@ -41,17 +41,21 @@
             // 
             // txtUser
             // 
+            this.txtUser.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
             this.txtUser.Location = new System.Drawing.Point(73, 182);
+            this.txtUser.Multiline = true;
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(208, 20);
+            this.txtUser.Size = new System.Drawing.Size(208, 28);
             this.txtUser.TabIndex = 0;
             this.txtUser.Tag = "";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(73, 243);
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.txtPassword.Location = new System.Drawing.Point(73, 254);
+            this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(208, 20);
+            this.txtPassword.Size = new System.Drawing.Size(208, 28);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -80,7 +84,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(69, 221);
+            this.label2.Location = new System.Drawing.Point(69, 232);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 4;

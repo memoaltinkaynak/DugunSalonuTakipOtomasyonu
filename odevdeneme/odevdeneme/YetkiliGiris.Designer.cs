@@ -44,6 +44,7 @@
             this.txtYetkiliUser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtYetkiliUser.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtYetkiliUser.Location = new System.Drawing.Point(106, 197);
             this.txtYetkiliUser.Multiline = true;
             this.txtYetkiliUser.Name = "txtYetkiliUser";
@@ -55,9 +56,11 @@
             this.txtYetkiliPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtYetkiliPassword.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtYetkiliPassword.Location = new System.Drawing.Point(106, 266);
             this.txtYetkiliPassword.Multiline = true;
             this.txtYetkiliPassword.Name = "txtYetkiliPassword";
+            this.txtYetkiliPassword.PasswordChar = '*';
             this.txtYetkiliPassword.Size = new System.Drawing.Size(159, 28);
             this.txtYetkiliPassword.TabIndex = 1;
             // 

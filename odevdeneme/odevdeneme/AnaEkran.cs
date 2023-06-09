@@ -12,26 +12,38 @@ using System.Windows.Forms;
 
 namespace odevdeneme
 {
-    public partial class AnaEkran : Form
-
-
-      
+    public partial class AnaEkran : Form             
     {
-        
+        public static int static_month, static_year;
+
         public AnaEkran()
         {
             InitializeComponent();
         }
         List<String> ayList = new List<String>() { "OCAK", "ŞUBAT", "MART", "NİSAN", "MAYIS", "HAZİRAN", "TEMMUZ", "AĞUSTOS", "EYLÜL", "EKİM", "KASIM", "ARALIK" };
-       
+        
         DateTime now = DateTime.Now;
         int counterYear = 0;
+        
+        
         private void AnaEkran_Load(object sender, EventArgs e)
         {
+           
             FillYearsComboBox();
             textChanged(now.Year);
             ayDoldur();
+            displaDays();
         }
+
+        private void displaDays() 
+        {
+            static_year = now.Year;
+            YakinProgramlar yakinProgramlar = new YakinProgramlar();
+            yakinProgramlar.ShowDialog();
+
+            
+        }
+
         // Ay isimlerini yazdırır.
         private void textChanged(int yil)
         {
@@ -77,6 +89,7 @@ namespace odevdeneme
                 counterYear = selectIndex;
                 int yil = now.Year + counterYear;
                 btnDegistir(yil);
+                static_year = yil;
 
             }
         }
@@ -137,6 +150,7 @@ namespace odevdeneme
             {
                 UserControlDays ucDays = new UserControlDays();
                 ucDays.days(y.ToString());
+                ucDays.months(ay.ToString()) ;
                 panel.Controls.Add(ucDays);
 
             }
@@ -161,15 +175,18 @@ namespace odevdeneme
 
         private void btnnextyear_Click(object sender, EventArgs e)
         {
-            counterYear++;
+            counterYear++;            
             int yil = now.Year + counterYear;
+            static_year = yil;
             btnDegistir(yil);
         }
 
         private void btnprevyear_Click(object sender, EventArgs e)
         {
             counterYear--;
+            
             int yil = now.Year + counterYear;
+            static_year = yil;
             btnDegistir(yil);
         }
 
@@ -200,10 +217,12 @@ namespace odevdeneme
             MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
         }
 
+       
+
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bu Özellik Yakında Hizmetinizde...");
 
+            displaDays();
 
         }
     }
